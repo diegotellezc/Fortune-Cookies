@@ -4,7 +4,7 @@
     font-size: 3rem;
     text-shadow: 4px 4px 1px var(--orange);
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -12,24 +12,31 @@
 .containerInfo__phrase {
     color: gray;
     background-image: url("/images/rectangle.png");
+    padding: 3rem;
+    text-align: center;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    padding: 3rem;
     aspect-ratio: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    /* max-width: 400px; */
+
     
 }
 
 .containerInfo__author {
     background-color: rgba(255, 255, 255, 0.618);
-    color: gray;
+    color: #323131;
     font-weight: lighter;
     text-align: center;
     padding: 10px 20px;
     max-width: max-content;
     margin: 0 auto;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
 }
